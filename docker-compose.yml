@@ -30,7 +30,7 @@ services:
       - '9000:9000'
 
   web:
-    container_name: 'WEB-CARDS_APP'
+    container_name: 'WEB-CONTROLE-ESTOQUE'
     build: './client'
     volumes:
       - './client/:/web-app/'
